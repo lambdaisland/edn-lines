@@ -20,13 +20,13 @@ If you find value in our work please consider [becoming a backer on Open Collect
 deps.edn
 
 ```
-lambdaisland/edn-lines {:mvn/version "0.0-4"}
+lambdaisland/edn-lines {:mvn/version "0.0-5"}
 ```
 
 project.clj
 
 ```
-[lambdaisland/edn-lines "0.0-4"]
+[lambdaisland/edn-lines "0.0-5"]
 ```
 
 
