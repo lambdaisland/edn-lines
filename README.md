@@ -15,6 +15,21 @@ This library contains helper functions for reading and writing files of newline-
 If you find value in our work please consider [becoming a backer on Open Collective](http://opencollective.com/lambda-island#section-contribute)
 <!-- /opencollective -->
 
+## Installation
+
+deps.edn
+
+```
+lambdaisland/edn-lines {:mvn/version "0.0.0"}
+```
+
+project.clj
+
+```
+[lambdaisland/edn-lines "0.0.0"]
+```
+
+
 ## Rationale
 
 An edn-lines file (extension `.ednl`) is a file which contains one or more EDN
@@ -59,7 +74,7 @@ Everyone has a right to submit patches to this projects, and thus become a contr
 Contributors MUST
 
 - adhere to the [LambdaIsland Clojure Style Guide](https://nextjournal.com/lambdaisland/clojure-style-guide)
-- write patches that solve a problem. Start by stating the problem, then supply a minimal solution. `*`
+- write patches that solve a problem. Start by stating the problem, then supply a minimal, accurate solution. `*`
 - agree to license their contributions as MPLv2.
 - not break the contract with downstream consumers. `**`
 - not break the tests.

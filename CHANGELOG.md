@@ -2,6 +2,4 @@
 
 ## Added
 
-## Fixed
-
-## Changed
+- First public API: `slurp`, `spit`, `reader-seq`, `append`, `with-append`
