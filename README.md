@@ -36,13 +36,13 @@ so that we may continue to enjoy a thriving Clojure ecosystem.
 deps.edn
 
 ```
-lambdaisland/edn-lines {:mvn/version "0.0-5"}
+lambdaisland/edn-lines {:mvn/version "1.0.10"}
 ```
 
 project.clj
 
 ```
-[lambdaisland/edn-lines "0.0-5"]
+[lambdaisland/edn-lines "1.0.10"]
 ```
 
 ## Rationale
