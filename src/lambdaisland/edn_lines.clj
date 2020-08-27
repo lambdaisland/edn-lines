@@ -27,7 +27,7 @@
 
 (defn- read-next [reader]
   (try
-    (let [x (edn/read reader false ::eof {})]
+    (let [x (edn/read reader false ::eof {:readers *data-readers*})]
       (if (= ::eof x)
         (do
           (.close reader)
