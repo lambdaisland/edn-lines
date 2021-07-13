@@ -20,6 +20,14 @@ commands:
       - kaocha/upload_codecov
 
 jobs:
+  java-16-clojure-1_10:
+    executor: clojure/openjdk16
+    steps: [{checkout_and_run: {clojure_version: "1.10.3"}}]
+
+  java-16-clojure-1_9:
+    executor: clojure/openjdk16
+    steps: [{checkout_and_run: {clojure_version: "1.9.0"}}]
+    
   java-11-clojure-1_10:
     executor: clojure/openjdk11
     steps: [{checkout_and_run: {clojure_version: "1.10.3"}}]
@@ -47,6 +55,8 @@ jobs:
 workflows:
   kaocha_test:
     jobs:
+      - java-16-clojure-1_10
+      - java-16-clojure-1_9
       - java-11-clojure-1_10
       - java-11-clojure-1_9
       - java-9-clojure-1_10
